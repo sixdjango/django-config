@@ -1,5 +1,5 @@
 {
-  "name": "django-config",
+  "name": "@django-freeman/config",
   "version": "0.1.0",
   "workspaces": [
     "packages/*"
