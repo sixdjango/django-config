@@ -3,7 +3,7 @@ name: Release Workflow
 on:
   push:
     tags:
-      - 'react-eslint/v*'
+      - 'v*'
 
 jobs:
   npm_pub:
@@ -20,7 +20,7 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{secrets.NPM_TOKEN}}
-          package: './react-eslint/package.json'
+          package: './packages/react-eslint/package.json'
   release:
     runs-on: ubuntu-latest
     steps:
