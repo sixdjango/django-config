@@ -1,8 +1,9 @@
 {
-  "name": "@django/react-eslint-config",
+  "name": "@django-freeman/react-eslint-config",
   "version": "0.1.0",
   "main": "index.js",
   "private": false,
+  
   "files": [
     "index.js"
   ],
