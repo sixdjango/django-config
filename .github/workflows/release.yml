@@ -17,7 +17,7 @@ jobs:
           run_install: |
             - recursive: false
       - name: Publish
-        run: cd packages/react-lint && pnpm publish --access public
+        run: cd packages/react-eslint && pnpm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       # 发布
